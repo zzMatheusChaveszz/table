@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+body{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+header{
+    height: 10vh;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(53, 63, 95);
+    padding: 1%;
+    border: 1px solid rgb(17, 65, 94);
+}
+
+h1{
+    padding: 5px;
+    font-size: 33px;
+    color: aliceblue;
+}
+
+table{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15vh;
+}
+
+td{
+    border: 1px solid black;
+    padding: 8px 3rem;
+}
+
+#cabeca{
+    background-color: rgb(69, 101, 150);
+    color: aliceblue;
+}
+
+#corpo{
+    background-color: rgb(217, 231, 243);
+}
+
+a,button{
+    margin-top: 3rem;
+}
+footer{
+    text-align: center;
+    font-size: small;
+    background-color: rgb(44, 50, 70);
+    color: aliceblue;
+    position: absolute;
+    bottom: 0;
+    height: 10vh;
+    width: 100%;
+}
